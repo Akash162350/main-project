@@ -1,0 +1,18 @@
+{
+  "name": "akash-portfolio-backend",
+  "version": "1.0.0",
+  "description": "Backend API + static server for Akash G P portfolio site (contact form + newsletter)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "mysql2": "^3.23.1",
+    "nodemailer": "^9.0.3"
+  }
+}
